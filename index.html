@@ -1,0 +1,227 @@
+<html><head><link href="https://gamesense.pub/favicon.ico" rel="icon">
+<link href="https://gamesense.pub/favicon.ico" rel="shortcut icon">
+
+
+  <title>           </title>
+  <link rel="stylesheet" type="text/css" href="entry2.css">
+  <link rel="stylesheet" type="text/css" href="index_pliki\noimg.css">
+  <link rel="stylesheet" type="text/css" href="baranimate.css">
+  <link rel="shortcut icon" href="https://gamesense.pub/favicon.ico" type="image/x-icon">
+  <style>
+      body, a, a:link{cursor:url(images/cursor.cur), default;} a:hover {cursor:url(images/cursor2.cur),pointer;}
+</style>
+</head><body>
+  <a class="button" href="main">Pick</a>
+  <iframe src="silence.mp3" allow:"autoplay"="" id="audio" style="display:none"></iframe> <!-- Bypasses the bug with a silence mp3 -->
+
+    <audio playsinline="" autoplay="" loop="">
+    <source src="music2.mp3" type="audio/mp3"> <!-- Convert the mp4 so you have your video and song separate. And you'll play them at the same time -->
+    </audio>
+
+         <script>
+
+            var x = document.getElementById("audio").volume = 0.6;
+
+         </script>
+
+         <script>
+		///// magic title changer big wooshies /////
+		var text = ["w","wx","wxg","wxg.","wxg.x","wxg.xy","wxg.xyz","wxg.xy","wxg.x", " wxg.", " wxg", " wx", " w"];
+		var counter = 0;
+	  var inst = setInterval(change, 850);
+
+	  function change() {
+		document.title = text[counter];
+		counter++;
+		if (counter >= text.length) {
+		counter = 0;
+		}
+		}
+		</script>
+
+		<script language="JavaScript">
+
+    document.onkeypress = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            return false;
+        }
+    }
+    document.onmousedown = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            return false;
+        }
+    }
+document.onkeydown = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            return false;
+        }
+    }
+
+var message="Sorry, right-click has been disabled";
+
+function clickIE() {if (document.all) {(message);return false;}}
+function clickNS(e) {if
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers)
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+document.oncontextmenu=new Function("return false")
+
+function disableCtrlKeyCombination(e)
+{
+
+var forbiddenKeys = new Array('a', 'n', 'c', 'x', 'v', 'j' , 'u', 'w', 'i');
+var key;
+var isCtrl;
+if(window.event)
+{
+key = window.event.keyCode;
+if(window.event.ctrlKey)
+isCtrl = true;
+else
+isCtrl = false;
+}
+else
+{
+key = e.which;
+if(e.ctrlKey)
+isCtrl = true;
+else
+isCtrl = false;
+}
+if(isCtrl)
+{
+for(i=0; i<forbiddenKeys.length; i++)
+{
+if(forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
+{
+return true;
+}
+}
+}
+return true;
+}
+
+    $(window).on('keydown',function(event)
+    {
+    if(event.keyCode==123)
+    {
+        return false;
+    }
+    else if(event.ctrlKey && event.shiftKey && event.keyCode==73)
+    {
+        return false;
+    }
+    else if(event.ctrlKey && event.keyCode==73)
+    {
+        return false;
+    }
+});
+$(document).on("contextmenu",function(e)
+{
+e.preventDefault();
+});
+
+    $(window).on('keydown',function(event)
+    {
+    if(event.keyCode==123)
+    {
+        return false;
+    }
+    else if(event.ctrlKey && event.shiftKey && event.keyCode==74)
+    {
+        return false;
+    }
+    else if(event.ctrlKey && event.keyCode==74)
+    {
+        return false;
+    }
+});
+$(document).on("contextmenu",function(e)
+{
+e.preventDefault();
+});
+    $(window).on('keydown',function(event)
+    {
+    if(event.keyCode==123)
+    {
+        return false;
+    }
+    else if(event.ctrlKey && event.shiftKey && event.keyCode==73)
+    {
+        return false;
+    }
+    else if(event.ctrlKey && event.keyCode==73)
+    {
+        return false;
+    }
+});
+$(document).on("contextmenu",function(e)
+{
+e.preventDefault();
+});
+
+    $(window).on('keydown',function(event)
+    {
+    if(event.keyCode==123)
+    {
+        return false;
+    }
+    else if(event.ctrlKey && event.keyCode==70)
+    {
+        return false;
+    }
+    else if(event.ctrlKey && event.keyCode==70)
+    {
+        return false;
+    }
+});
+$(document).on("contextmenu",function(e)
+{
+e.preventDefault();
+});
+   $(window).on('keydown',function(event)
+    {
+    if(event.keyCode==123)
+    {
+        return false;
+    }
+    else if(event.keyCode==122)
+    {
+        return false;
+    }
+    else if(event.keyCode==122)
+    {
+        return false;
+    }
+});
+$(document).on("contextmenu",function(e)
+{
+e.preventDefault();
+});
+</script>
+
+<script>
+$(document).ready(function(){
+   $.ajax({
+        url:'hotlinesipdatabasetorektnoobs.php',
+        type:'GET',
+        data:"parameter=some_parameter",
+       success:function(data)
+       {
+              $("#thisdiv").html(data);
+           }
+    });
+});
+</script>
+
+		<div id="body-animated"></div>
+
+
+
+
+</body></html>
